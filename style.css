@@ -1,0 +1,427 @@
+body{
+    
+    font:
+    15px/1.5, bell mt, Arial, Arial Black, Sans-serif;
+    padding:0;
+    margin:0;
+   
+}
+
+
+/******************************NAVBAR **************************************/
+.nav{
+    
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height:80px;
+}
+.logo{
+    letter-spacing: 1px;
+    float: left;
+    color:#fff;
+    font-size: 22px;
+    line-height:80px;
+    padding: 0 6em;
+    font-weight:bold;
+}
+.menu{
+    float: right;
+    line-height: 80px;
+    margin: 0 6em;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display:inline-block;
+}
+.menu ul li a:hover{
+    font-weight: bolder;
+    background-color: chartreuse;
+    color: black;
+}
+.menu ul li a{
+    border:2px solid #000;
+    display: block;
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+    font-weight: lighter;
+    padding: 0 20px;
+}
+ menu .current a{
+    color:black;
+    font-weight: bolder;
+}
+/****************************** RESERVE ****************************************** */
+.reserve{
+    position: absolute;
+    top:50%;
+    left:22%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.reserve h1{
+    color:#000;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.reserve button{
+    color: #fff;
+    background: #000;
+    padding: 18px 38px;
+    border:none;
+    font-size: 14px;
+   margin-top: 40px; 
+}
+.main-btn{
+    color:#000;
+    font-size: 2rem;
+    border:2px solid #000;
+    transition: all is ease-in-out;
+}
+.main-btn:hover{
+    color:#fff;
+    border:2px solid black;
+    background: #000;  
+ }
+
+
+ .btn{
+    border:2px solid #000;
+    padding: 5px 20px;
+    color: #000;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border-radius: 15px;
+}
+.btn:hover{
+    background-color: chartreuse;
+    color: #000;
+}
+.rogue{
+    min-height: 600px; 
+    background: url('imgs/5.jpg') no-repeat 0 -400px;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+        color:black;
+        
+    
+    }
+    .container{
+        width:80%;
+        margin: auto;
+        overflow:hidden;
+    }
+.button_1{
+    font-family: cursive;
+    font-weight: italic;
+    padding-bottom: 10px;
+    background-color: black;
+        color:#fff;
+    font-size: 2rem;
+    border:2px solid chartreuse;
+    transition: all is ease-in-out;
+}
+.button_1:hover{
+     background-color: chartreuse;
+    color: black;
+}
+.btn1{
+     border:2px solid #fff;
+    padding: 5px 20px;
+    color: #000;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border-radius: 15px;
+}
+.btn1:hover{
+    background-color: chartreuse;
+    color: #000;
+}
+    /********************* ORDER**********************************8 */
+ 
+    #order{
+        padding:15px;
+        color:#ffffff;
+        background: black;
+        border: chartreuse;
+    
+    }
+    #order h1{
+        float: left;
+    }
+     #order form{
+         float: right;
+         margin-top: 15px;
+     } 
+     #order input[type="order"]{
+         padding:4px;
+         height:25px;
+         width:250px;
+     }
+     /* **************************PRICE******************************** */
+
+   #wholestory{ 
+      
+       font-family: bell mt;
+      
+   }
+   #wholestory h3{
+       text-align:left;
+       color: rgb(13, 107, 214);
+       font-weight: bold;
+       
+   }
+   
+
+   #prices{
+    /* margin-top: 20px; */
+    font-family: bell mt;
+    background-color: white;
+  }
+    #prices h3{
+    text-align: center;
+   font-weight: bold; 
+   color:black;
+    font-family:bell mt; }
+    #prices .afford{
+        float:left;
+        text-align: center;
+        width:30%;
+        /* padding: 10px; */
+        font-size: 100%;
+  }
+.andela{
+    text-align: center;
+    color:black;
+    font-size: 20px;
+}
+.btn-price{
+    background-color: white;
+}
+     /* ****************************** FOOTER**************** */
+     footer{
+        padding:20px;
+        margin-top: 10px;
+        color:#ffffff;
+        text-align: left;
+        background-color:black;
+    }
+    /************************ RESCUE*************************************** */
+    .rescue{
+        min-height: 500px; 
+        background: url('imgs/6.jpg') no-repeat 0 -400px;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+        color:white;
+        font-size:28px;
+        margin:0;
+    }
+    /* *************************ABOUT US************************* */
+    .about-head{
+        min-height: 600px; 
+    background: url('imgs/52.jpg') no-repeat 0 -400px;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+        color:white;
+        
+    }
+    /* **********************NOLLY******************** */
+    #nolly{
+        min-height: 500px;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+        color:white;
+    
+    }
+    #nolly h1{
+        margin-top: 100px;
+        font-size: 30px;
+        margin-bottom: 10px;
+        font-family:bell mt;
+    
+    }
+    #nolly p{
+        padding:15px; 
+        color:white;
+        font-family: Bell MT;
+        font-size: 25px;
+    }
+    
+    
+  /* **************CONTACT******************************** */
+
+.contact-head{
+        min-height: 600px; 
+    background: url('imgs/38.jpg') no-repeat 0 -400px;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+        color:white;
+        
+    }
+    #sent{
+        color: #fff;
+        padding-top: 350px;
+        font-size: 25px;
+
+    }
+    /* ***************SERVICE SECTION********************** */
+    .service-head{
+        min-height: 600px; 
+    background: url('imgs/31.jpg') no-repeat 0 -400px;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+        color:white;
+    }
+    .serve{
+        padding-top: 250px;
+        font-size: 25px;
+        color: white;
+
+    }
+    .serv{
+     color:white; 
+     font-family: bell mt;
+      text-align: center;
+    }
+    /* ***************************sidebar********************** */
+
+ aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+ article#main-col{
+    float: left;
+    width: 60%;
+
+ }
+
+
+ .dark{
+    padding:15px;
+    background:black;
+    color:#ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* ****************************glowing text********************* */
+
+.glow {
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px chartreuse, 0 0 40px chartreuse, 0 0 50px chartreuse, 0 0 60px chartreuse, 0 0 70px chartreuse;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+.andela {
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes andela {
+  from {
+    text-shadow: 0 0 10px chartreuse, 0 0 20px chartreuse, 0 0 30px chartreuse, 0 0 40px chartreuse, 0 0 50px chartreuse, 0 0 60px chartreuse, 0 0 70px chartreuse;
+  }
+  
+  to {
+    text-shadow: 0 0 20px green, 0 0 30px chartreuse, 0 0 40px chartreuse, 0 0 50px chartreuse, 0 0 60px chartreuse, 0 0 70px chartreuse, 0 0 80px chartreuse;
+  }
+}
+
+/* *****************************text shadow******************** */
+.reserve h1{
+    text-shadow: 1px 1px 2px white, 0 0 25px white, 0 0 5px red;
+}
+.afford h3{
+    font-size: 25px;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px chartreuse;
+}
+.rescue{
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px chartreuse;
+}
+.container p{
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px chartreuse;
+}
+.container h1{
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px chartreuse;
+}
+.serve{
+     text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px chartreuse;
+}
+.dark h3{
+     text-shadow: 1px 1px 2px white, 0 0 25px black, 0 0 5px chartreuse;
+}
+.dark h1{
+     text-shadow: 1px 1px 2px white, 0 0 25px black, 0 0 5px chartreuse;
+}
+.andela{
+     text-shadow: 1px 1px 2px white, 0 0 25px black, 0 0 5px chartreuse;
+}
+/* ****************************social media buttons************* */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* ***********************text box*************************** */
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid chartreuse;
+  border-radius: 4px;
+}
